@@ -33,8 +33,17 @@ The Library System is an application that allows the users to access the book co
 ## Demo Screenshots
 
 1. Homepage
+
+![1](https://user-images.githubusercontent.com/38019514/81770756-077f2600-9496-11ea-93c6-29016aeff92a.png)
+
 2. Adding a book ‘Test01’
+
+![2](https://user-images.githubusercontent.com/38019514/81770773-1239bb00-9496-11ea-9047-0bb4247f99bd.png)
+
 3. ‘Test01’ added
+
+![3](https://user-images.githubusercontent.com/38019514/81770780-182f9c00-9496-11ea-9ae2-b20bb7720147.png)
+
 
 ## Setup Prerequisites
 
