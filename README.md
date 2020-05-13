@@ -17,8 +17,8 @@ San Jose State University
 - [Instructions to Run Locally](#instructions-to-run-locally)
 - [UML Diagrams](#uml-diagrams)
 - [Database Schema](#database-schema)
-- [Links](#links)
-- [Links](#links)
+- [Mid Tier API](#mid-tier-api)
+- [UI Data Transport](#ui-data-transport)
 
 ## Project Description:
 
@@ -111,10 +111,27 @@ Then to run the docker container, use the following command and browse to localh
 
 The database only requires one ‘Book’ table in order to keep track of books and display them on the frontend
 
-![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png){:height="50%" width="50%"}
+![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png)
 
 The books data stored in this schema looks as follows:
 
 ![schema2](https://user-images.githubusercontent.com/38019514/81771015-bd4a7480-9496-11ea-9579-042606353ff5.png)
 
+
+## Mid Tier API
+
+The backend API created using springboot application allows the frontend to make calls to the API and request the books' information from the RDS database. This API is deployed through Elastic Beanstalk and the environment's url is stated as a proxy inside the frontend code in order to connect.
+
+![Screen Shot 2020-05-12 at 9 13 16 PM](https://user-images.githubusercontent.com/38019514/81771334-8d4fa100-9497-11ea-8739-e5bdea722ae3.png)
+
+The root url redirects to the root '/' of the springboot application:
+
+![Screen Shot 2020-05-12 at 9 29 25 PM](https://user-images.githubusercontent.com/38019514/81771394-ad7f6000-9497-11ea-8a0f-6b2249661bf6.png)
+
+## UI Data Transport
+
+The API provides the book data in the form of JSON.
+To access this json, 'api/books/' is appended to the API url from beanstalk
+
+![Screen Shot 2020-05-12 at 9 12 35 PM](https://user-images.githubusercontent.com/38019514/81771339-90e32800-9497-11ea-8227-409139443823.png)
 
