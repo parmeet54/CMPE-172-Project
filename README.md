@@ -4,3 +4,7 @@
 
 
  
+### Team Members
+- Welby Chan
+- Inderpreet Singh
+- Parmeet Singh
