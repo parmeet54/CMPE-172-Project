@@ -15,6 +15,9 @@ San Jose State University
   - [React Frontend](#react-frontend)
   - [Springboot Backend](#spring-boot-java-backend)
 - [Instructions to Run Locally](#instructions-to-run-locally)
+- [UML Diagrams](#uml-diagrams)
+- [Database Schema](#database-schema)
+- [Links](#links)
 - [Links](#links)
 
 ## Project Description:
@@ -85,3 +88,14 @@ Then to run the docker container, use the following command and browse to localh
 	docker run  -it -p 3000:3000 docker-react
 ```
 
+
+## UML Diagrams
+
+- Class Diagrams
+	- Frontend
+	- Backend
+
+- Sequence Diagram
+
+
+## Database Schema
