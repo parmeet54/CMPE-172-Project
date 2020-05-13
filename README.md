@@ -100,11 +100,16 @@ Then to run the docker container, use the following command and browse to localh
 
 ## UML Diagrams
 
-- Class Diagrams
-	- Frontend
-	- Backend
+- Class Diagram
+	- Springboot Application
+![class](https://user-images.githubusercontent.com/38019514/81770819-39908800-9496-11ea-865a-bf011ef2bd17.png)
 
 - Sequence Diagram
 
 
 ## Database Schema
+
+The database only requires one ‘Book’ table in order to keep track of books and display them on the frontend
+
+![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png)
+
