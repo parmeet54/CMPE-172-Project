@@ -106,6 +106,9 @@ Then to run the docker container, use the following command and browse to localh
 
 - Sequence Diagram
 
+![sequence diagram](https://user-images.githubusercontent.com/38019514/81772723-727f2b80-949b-11ea-858e-90f7e7207dfb.png)
+
+
 
 ## Database Schema
 
