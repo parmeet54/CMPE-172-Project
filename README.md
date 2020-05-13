@@ -1,2 +1,6 @@
-# CMPE 172 Report
- Library System project using AWS services and Springboot
+# San Jose State University
+
+## Enterprise Software - CMPE 172-01 / Spring 2020
+
+
+ 
