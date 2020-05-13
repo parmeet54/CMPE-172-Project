@@ -111,7 +111,7 @@ Then to run the docker container, use the following command and browse to localh
 
 The database only requires one ‘Book’ table in order to keep track of books and display them on the frontend
 
-![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png)
+![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png){:height="50%" width="50%"}
 
 The books data stored in this schema looks as follows:
 
