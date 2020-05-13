@@ -70,15 +70,16 @@ There are 2 options/ways to run the project on a local system
    To start the react application on your browser. If the terminal does not redirect you to the browser, go to localhost:3000 on your browser manually.
 
 
+
 - 2.Docker
 
 	To run the react application inside a docker container, first you must change directory into the UI folder of the project with the dockerfile inside. Then to make a docker image of the react application, use the following command to produce that image.
 
-````
+`
 	docker build -t docker-react .
-````
+`
 
-   Then to run the docker container, use the following command and browse to localhost:3000
+Then to run the docker container, use the following command and browse to localhost:3000
 
 ```
 	docker run  -it -p 3000:3000 docker-react
