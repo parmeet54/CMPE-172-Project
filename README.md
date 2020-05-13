@@ -53,7 +53,7 @@ The Library System is an application that allows the users to access the book co
 
 There are 2 options/ways to run the project on a local system
 
-- 1.Npm 
+- 1.NPM 
 	
 	In order to use npm for the react application, first you must change directory into the UI folder of the project. After that, enter the following command into your terminal in order to install the node modules required for the react application
 
@@ -67,7 +67,7 @@ Then, to run the application on your browser, use the command
 	npm start
 ```
 	
-	To start the react application on your browser. If the terminal does not redirect you to the browser, go to localhost:3000 on your browser manually.
+To start the react application on your browser. If the terminal does not redirect you to the browser, go to localhost:3000 on your browser manually.
 
 
 - 2.Docker
