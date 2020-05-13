@@ -61,7 +61,7 @@ There are 2 options/ways to run the project on a local system
 	npm install
 ```
 
-	Then, to run the application on your browser, use the command
+Then, to run the application on your browser, use the command
 
 ```
 	npm start
