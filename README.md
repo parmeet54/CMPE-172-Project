@@ -12,8 +12,8 @@ San Jose State University
 - [Project Description](#project-description)
 - [Demo Screenshots](#demo-screenshots)
 - [Setup Prerequisites](#setup-prerequisites)
-  - [React Frontend](#react-frontend)
-  - [Springboot Backend](#springboot-backend)
+  - [React Frontend](#react-frontend:)
+  - [Springboot Backend](#spring-boot-java-backend:)
 - [Instructions to Run Locally](#license)
 - [Links](#links)
 
