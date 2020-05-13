@@ -14,7 +14,7 @@ San Jose State University
 - [Setup Prerequisites](#setup-prerequisites)
   - [React Frontend](#react-frontend)
   - [Springboot Backend](#spring-boot-java-backend)
-- [Instructions to Run Locally](#license)
+- [Instructions to Run Locally](#instructions-to-run-locally)
 - [Links](#links)
 
 ## Project Description:
@@ -47,3 +47,40 @@ The Library System is an application that allows the users to access the book co
     - Import the ‘SpringBoot’ folder into the IDE as a new project
     - Select run and choose “Build”
     - After successful build, browse to localhost:8080 to run it on your browser
+    
+    
+## Instructions to Run Locally
+
+There are 2 options/ways to run the project on a local system
+
+- 1.Npm 
+	
+	In order to use npm for the react application, first you must change directory into the UI folder of the project. After that, enter the following command into your terminal in order to install the node modules required for the react application
+
+```
+	npm install
+```
+
+	Then, to run the application on your browser, use the command
+
+```
+	npm start
+```
+	
+	To start the react application on your browser. If the terminal does not redirect you to the browser, go to localhost:3000 on your browser manually.
+
+
+- 2.Docker
+
+	To run the react application inside a docker container, first you must change directory into the UI folder of the project with the dockerfile inside. Then to make a docker image of the react application, use the following command to produce that image.
+
+```
+	docker build -t docker-react .
+```
+
+Then to run the docker container, use the following command and browse to localhost:3000
+
+```
+	docker run  -it -p 3000:3000 docker-react
+```
+
