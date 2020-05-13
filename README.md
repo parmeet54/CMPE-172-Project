@@ -12,8 +12,8 @@ San Jose State University
 - [Project Description](#project-description)
 - [Demo Screenshots](#demo-screenshots)
 - [Setup Prerequisites](#setup-prerequisites)
-  - [React Frontend](#react-frontend:)
-  - [Springboot Backend](#spring-boot-java-backend:)
+  - [React Frontend](#react-frontend)
+  - [Springboot Backend](#spring-boot-java-backend)
 - [Instructions to Run Locally](#license)
 - [Links](#links)
 
@@ -35,12 +35,12 @@ The Library System is an application that allows the users to access the book co
 
 ## Setup Prerequisites
 
-- React Frontend:
+- React Frontend
   - First install ReactJS, npm,  and NodeJS. To check whether you have them or not type in command console ‘npm -v’ for npm, ‘node -v’ for NodeJS, and to check react, you can just start it up
   - To create a React app, type in the command console ‘npx create-react-app “name”’ in the directory or folder you want your app in. 
   - You can also install Docker on your system if you wish to run the react application inside the docker container with the provided dockerfile.
 
-- Spring Boot JAVA Backend: 
+- Spring Boot JAVA Backend
   - The backend application does not need to be run locally, as it is publically deployed through elastic beanstalk for the frontend to communicate with. 
   - But if you wish to run the SpringBoot application locally, you must:
     - Install SpringBootSuite or Intellij IDEA
