@@ -10,9 +10,11 @@ San Jose State University
 
 ## Table of contents
 - [Project Description](#project-description)
-- [TYPO3 setup](#typo3-setup)
-- [Page setup](#page-setup)
-- [License](#license)
+- [Demo Screenshots](#demo-screenshots)
+- [Setup Prerequisites](#setup-prerequisites)
+  - [React Frontend](#react-frontend)
+  - [Springboot Backend](#springboot-backend)
+- [Instructions to Run Locally](#license)
 - [Links](#links)
 
 ## Project Description:
@@ -24,3 +26,24 @@ The Library System is an application that allows the users to access the book co
 - AWS RDS for the data storage.
 - Docker to run applications in containers easily.
 - AWS Elastic Beanstalk for deployment.
+
+## Demo Screenshots
+
+1. Homepage
+2. Adding a book ‘Test01’
+3. ‘Test01’ added
+
+## Setup Prerequisites
+
+- React Frontend:
+  - First install ReactJS, npm,  and NodeJS. To check whether you have them or not type in command console ‘npm -v’ for npm, ‘node -v’ for NodeJS, and to check react, you can just start it up
+  - To create a React app, type in the command console ‘npx create-react-app “name”’ in the directory or folder you want your app in. 
+  - You can also install Docker on your system if you wish to run the react application inside the docker container with the provided dockerfile.
+
+- Spring Boot JAVA Backend: 
+  - The backend application does not need to be run locally, as it is publically deployed through elastic beanstalk for the frontend to communicate with. 
+  - But if you wish to run the SpringBoot application locally, you must:
+    - Install SpringBootSuite or Intellij IDEA
+    - Import the ‘SpringBoot’ folder into the IDE as a new project
+    - Select run and choose “Build”
+    - After successful build, browse to localhost:8080 to run it on your browser
