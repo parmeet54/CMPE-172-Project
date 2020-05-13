@@ -113,3 +113,8 @@ The database only requires one ‘Book’ table in order to keep track of books 
 
 ![schema](https://user-images.githubusercontent.com/38019514/81770825-3c8b7880-9496-11ea-9571-53da7fd0f935.png)
 
+The books data stored in this schema looks as follows:
+
+![schema2](https://user-images.githubusercontent.com/38019514/81771015-bd4a7480-9496-11ea-9579-042606353ff5.png)
+
+
