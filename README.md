@@ -1,14 +1,16 @@
-# San Jose State University
+San Jose State University
+======================
 
-## Enterprise Software - CMPE 172-01 / Spring 2020
+# Enterprise Software - CMPE 172-01 / Spring 2020
 
 
  
-### Team Members
+## Team Members
 - Welby Chan
 - Inderpreet Singh
 - Parmeet Singh
 
+## Table of contents
 
 ### Project Description:
 
