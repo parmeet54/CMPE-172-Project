@@ -24,6 +24,11 @@
     "eject": "react-scripts eject"
   },
   
+  "proxy": "http://dockerspringboot-dev.us-west-1.elasticbeanstalk.com",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
